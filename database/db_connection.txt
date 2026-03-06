@@ -1,0 +1,14 @@
+# Provide the PostgreSQL connection command for this environment.
+# Example formats (choose one and replace placeholders with real values):
+#
+# Option A (URL):
+# psql "postgresql://USER:PASSWORD@HOST:PORT/DBNAME"
+#
+# Option B (key/value):
+# psql "host=HOST port=PORT dbname=DBNAME user=USER password=PASSWORD sslmode=require"
+#
+# After this is set, schema creation/seed can be applied using:
+#   <paste command above> -c "SQL_STATEMENT"
+#
+# NOTE: Do not commit real secrets if this repo is shared.
+psql "postgresql://USER:PASSWORD@HOST:PORT/DBNAME"
